@@ -89,28 +89,7 @@ legitstat.Text = "Legit Stat(OP)"
 legitstat.TextColor3 = Color3.fromRGB(255, 255, 255)
 legitstat.TextScaled = true
 legitstat.TextSize = 14.000
-legitstat.TelegitStat.MouseButton1Down:connect(function()
-Gamer:Toggle("Insane Legit Stat",function(value)
-for i,v in pairs(getgc(true)) do
-    if type(v) == "table" and rawget(v, "handles") then
-        v.freethrow = math,huge;
-        v.steal = math.huge;
-        v.shotcontest = math.huge;
-        v["2pointer"] = 99;
-        v["3pointer"] = 99;
-        v.passing = math.huge;
-        v.layup = math.huge;
-        v.strength = math.huge;
-        v.dunk = 99;
-        v.movingshot = 99;
-        v.defense = math.huge;
-        v.stamina = math.huge;
-    end
-end
-end)
-end)
-xtWrapped = true
-legitStat.MouseButton1Down:connect(function()
+legitstat.MouseButton1Down:connect(function()
 Gamer:Toggle("Insane Legit Stat",function(value)
 for i,v in pairs(getgc(true)) do
     if type(v) == "table" and rawget(v, "handles") then
