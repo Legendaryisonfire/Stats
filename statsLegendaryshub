@@ -1,0 +1,1619 @@
+--Stats-- --By Legendary#7357--
+
+local ScreenGui = Instance.new("ScreenGui")
+local stats = Instance.new("ScrollingFrame")
+local customstat = Instance.new("TextButton")
+local legitstat = Instance.new("TextButton")
+local mathhugestat = Instance.new("TextButton")
+local pgshootersuper = Instance.new("TextButton")
+local pgslashersuper = Instance.new("TextButton")
+local pgplaymakersuper = Instance.new("TextButton")
+local sgshootersuper = Instance.new("TextButton")
+local sgslashersuper = Instance.new("TextButton")
+local sgcomboguardsuper = Instance.new("TextButton")
+local sgplaymakersuper = Instance.new("TextButton")
+local pgshooterpro = Instance.new("TextButton")
+local pgslasherpro = Instance.new("TextButton")
+local pgplaymakerpro = Instance.new("TextButton")
+local sgshooterpro = Instance.new("TextButton")
+local sgslasherpro = Instance.new("TextButton")
+local sgplaymakerpro = Instance.new("TextButton")
+local sfslasherrookie = Instance.new("TextButton")
+local sfshootersuper = Instance.new("TextButton")
+local sfslashersuper = Instance.new("TextButton")
+local sfplaymakersuper = Instance.new("TextButton")
+local sfshooterpro = Instance.new("TextButton")
+local sfslasherpro = Instance.new("TextButton")
+local sfplaymakerpro = Instance.new("TextButton")
+local pgshooterrookie = Instance.new("TextButton")
+local pgslasherrookie = Instance.new("TextButton")
+local pgplaymakerrookie = Instance.new("TextButton")
+local sgshooterrookie = Instance.new("TextButton")
+local sgslasherrookie = Instance.new("TextButton")
+local sgplaymakerrookie = Instance.new("TextButton")
+local sfshooterrookie = Instance.new("TextButton")
+local sgcomboguardpro = Instance.new("TextButton")
+local sfplaymakerrookie = Instance.new("TextButton")
+local close = Instance.new("TextButton")
+local pfstretchsuper = Instance.new("TextButton")
+local pfrimsuper = Instance.new("TextButton")
+local pfpostsuper = Instance.new("TextButton")
+local cstretchsuper = Instance.new("TextButton")
+local crimsuper = Instance.new("TextButton")
+local sgcomboguardrookie = Instance.new("TextButton")
+local cpostsuper = Instance.new("TextButton")
+local pfstretchpro = Instance.new("TextButton")
+local pfpostpro = Instance.new("TextButton")
+local pfrimpro = Instance.new("TextButton")
+local cstretchrookie = Instance.new("TextButton")
+local cpostrookie = Instance.new("TextButton")
+local crimrookie = Instance.new("TextButton")
+local pfstretchrookie = Instance.new("TextButton")
+local pfpostrookie = Instance.new("TextButton")
+local pfrimrookie = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+stats.Name = "stats"
+stats.Parent = ScreenGui
+stats.Active = true
+stats.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+stats.Position = UDim2.new(0.3436988, 0, 0.647852778, 0)
+stats.Size = UDim2.new(0, 291, 0, 247)
+stats.Visible = true
+stats.Active = true
+stats.Draggable = true
+
+customstat.Name = "customstat"
+customstat.Parent = stats
+customstat.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+customstat.Position = UDim2.new(-0.00101316266, 0, -0.0017913942, 0)
+customstat.Size = UDim2.new(0, 200, 0, 30)
+customstat.Font = Enum.Font.GothamBold
+customstat.Text = "Custom Stat(in progress)"
+customstat.TextColor3 = Color3.fromRGB(255, 255, 255)
+customstat.TextScaled = true
+customstat.TextSize = 14.000
+customstat.TextWrapped = true
+
+legitstat.Name = "legitstat"
+legitstat.Parent = stats
+legitstat.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+legitstat.Position = UDim2.new(-0.00101321144, 0, 0.0162929632, 0)
+legitstat.Size = UDim2.new(0, 200, 0, 30)
+legitstat.Font = Enum.Font.GothamBold
+legitstat.Text = "Legit Stat(OP)"
+legitstat.TextColor3 = Color3.fromRGB(255, 255, 255)
+legitstat.TextScaled = true
+legitstat.TextSize = 14.000
+legitstat.TelegitStat.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+xtWrapped = true
+legitStat.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+mathhugestat.Name = "mathhugestat"
+mathhugestat.Parent = stats
+mathhugestat.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+mathhugestat.Position = UDim2.new(-0.00101321144, 0, 0.0346978717, 0)
+mathhugestat.Size = UDim2.new(0, 200, 0, 30)
+mathhugestat.Font = Enum.Font.GothamBold
+mathhugestat.Text = "MathHuge Stat"
+mathhugestat.TextColor3 = Color3.fromRGB(255, 255, 255)
+mathhugestat.TextScaled = true
+mathhugestat.TextSize = 14.000
+mathhugestat.TextWrapped = true
+mathhugestat.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = math.huge;
+        v["3pointer"] = math.huge;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = math.huge;
+        v.movingshot = math.huge;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+pgshootersuper.Name = "pgshooter(super)"
+pgshootersuper.Parent = stats
+pgshootersuper.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pgshootersuper.Position = UDim2.new(-0.00101321144, 0, 0.0531027801, 0)
+pgshootersuper.Size = UDim2.new(0, 200, 0, 30)
+pgshootersuper.Font = Enum.Font.GothamBold
+pgshootersuper.Text = "PG Shooter(super)"
+pgshootersuper.TextColor3 = Color3.fromRGB(255, 255, 255)
+pgshootersuper.TextScaled = true
+pgshootersuper.TextSize = 14.000
+pgshootersuper.TextWrapped = true
+pgshootersuper.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+pgslashersuper.Name = "pgslasher(super)"
+pgslashersuper.Parent = stats
+pgslashersuper.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pgslashersuper.Position = UDim2.new(-0.00101321144, 0, 0.0715076923, 0)
+pgslashersuper.Size = UDim2.new(0, 200, 0, 30)
+pgslashersuper.Font = Enum.Font.GothamBold
+pgslashersuper.Text = "PG Slasher(super)"
+pgslashersuper.TextColor3 = Color3.fromRGB(255, 255, 255)
+pgslashersuper.TextScaled = true
+pgslashersuper.TextSize = 14.000
+pgslashersuper.TextWrapped = true
+pgslashersuper.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+pgplaymakersuper.Name = "pgplaymaker(super)"
+pgplaymakersuper.Parent = stats
+pgplaymakersuper.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pgplaymakersuper.Position = UDim2.new(-0.00101321144, 0, 0.0899125934, 0)
+pgplaymakersuper.Size = UDim2.new(0, 200, 0, 30)
+pgplaymakersuper.Font = Enum.Font.GothamBold
+pgplaymakersuper.Text = "PG Playmaker(super)"
+pgplaymakersuper.TextColor3 = Color3.fromRGB(255, 255, 255)
+pgplaymakersuper.TextScaled = true
+pgplaymakersuper.TextSize = 14.000
+pgplaymakersuper.TextWrapped = true
+pgplaymakersuper.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sgshootersuper.Name = "sgshooter(super)"
+sgshootersuper.Parent = stats
+sgshootersuper.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sgshootersuper.Position = UDim2.new(-0.00101321144, 0, 0.108317509, 0)
+sgshootersuper.Size = UDim2.new(0, 200, 0, 30)
+sgshootersuper.Font = Enum.Font.GothamBold
+sgshootersuper.Text = "SG Shooter(super)"
+sgshootersuper.TextColor3 = Color3.fromRGB(255, 255, 255)
+sgshootersuper.TextScaled = true
+sgshootersuper.TextSize = 14.000
+sgshootersuper.TextWrapped = true
+sgshootersuper.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sgslashersuper.Name = "sgslasher(super)"
+sgslashersuper.Parent = stats
+sgslashersuper.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sgslashersuper.Position = UDim2.new(1.86264515e-09, 0, 0.309257418, 0)
+sgslashersuper.Size = UDim2.new(0, 200, 0, 30)
+sgslashersuper.Font = Enum.Font.GothamBold
+sgslashersuper.Text = "SG Slasher(super)"
+sgslashersuper.TextColor3 = Color3.fromRGB(255, 255, 255)
+sgslashersuper.TextScaled = true
+sgslashersuper.TextSize = 14.000
+sgslashersuper.TextWrapped = true
+sgslashersuper.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sgcomboguardsuper.Name = "sgcomboguard(super)"
+sgcomboguardsuper.Parent = stats
+sgcomboguardsuper.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sgcomboguardsuper.Position = UDim2.new(-0.00444963761, 0, 0.162918746, 0)
+sgcomboguardsuper.Size = UDim2.new(0, 200, 0, 30)
+sgcomboguardsuper.Font = Enum.Font.GothamBold
+sgcomboguardsuper.Text = "SG Comboguard(super)"
+sgcomboguardsuper.TextColor3 = Color3.fromRGB(255, 255, 255)
+sgcomboguardsuper.TextScaled = true
+sgcomboguardsuper.TextSize = 14.000
+sgcomboguardsuper.TextWrapped = true
+sgcomboguardsuper.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sgplaymakersuper.Name = "sgplaymaker(super)"
+sgplaymakersuper.Parent = stats
+sgplaymakersuper.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sgplaymakersuper.Position = UDim2.new(-0.00444963761, 0, 0.144513831, 0)
+sgplaymakersuper.Size = UDim2.new(0, 200, 0, 30)
+sgplaymakersuper.Font = Enum.Font.GothamBold
+sgplaymakersuper.Text = "SG Playmaker(super)"
+sgplaymakersuper.TextColor3 = Color3.fromRGB(255, 255, 255)
+sgplaymakersuper.TextScaled = true
+sgplaymakersuper.TextSize = 14.000
+sgplaymakersuper.TextWrapped = true
+sgplaymakersuper.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+pgshooterpro.Name = "pgshooter(pro)"
+pgshooterpro.Parent = stats
+pgshooterpro.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pgshooterpro.Position = UDim2.new(-0.00444963807, 0, 0.236538336, 0)
+pgshooterpro.Size = UDim2.new(0, 200, 0, 30)
+pgshooterpro.Font = Enum.Font.GothamBold
+pgshooterpro.Text = "PG Shooter(pro)"
+pgshooterpro.TextColor3 = Color3.fromRGB(255, 255, 255)
+pgshooterpro.TextScaled = true
+pgshooterpro.TextSize = 14.000
+pgshooterpro.TextWrapped = true
+pgshooterpro.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+pgslasherpro.Name = "pgslasher(pro)"
+pgslasherpro.Parent = stats
+pgslasherpro.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pgslasherpro.Position = UDim2.new(-0.00101320818, 0, 0.254943252, 0)
+pgslasherpro.Size = UDim2.new(0, 200, 0, 30)
+pgslasherpro.Font = Enum.Font.GothamBold
+pgslasherpro.Text = "PG Slasher(pro)"
+pgslasherpro.TextColor3 = Color3.fromRGB(255, 255, 255)
+pgslasherpro.TextScaled = true
+pgslasherpro.TextSize = 14.000
+pgslasherpro.TextWrapped = true
+pgslasherpro.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+pgplaymakerpro.Name = "pgplaymaker(pro)"
+pgplaymakerpro.Parent = stats
+pgplaymakerpro.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pgplaymakerpro.Position = UDim2.new(-0.00101320446, 0, 0.272734702, 0)
+pgplaymakerpro.Size = UDim2.new(0, 200, 0, 30)
+pgplaymakerpro.Font = Enum.Font.GothamBold
+pgplaymakerpro.Text = "PG Playmaker(pro)"
+pgplaymakerpro.TextColor3 = Color3.fromRGB(255, 255, 255)
+pgplaymakerpro.TextScaled = true
+pgplaymakerpro.TextSize = 14.000
+pgplaymakerpro.TextWrapped = true
+pgplaymakerpro.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sgshooterpro.Name = "sgshooter(pro)"
+sgshooterpro.Parent = stats
+sgshooterpro.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sgshooterpro.Position = UDim2.new(-0.00444963807, 0, 0.291139573, 0)
+sgshooterpro.Size = UDim2.new(0, 200, 0, 30)
+sgshooterpro.Font = Enum.Font.GothamBold
+sgshooterpro.Text = "SG Shooter(pro)"
+sgshooterpro.TextColor3 = Color3.fromRGB(255, 255, 255)
+sgshooterpro.TextScaled = true
+sgshooterpro.TextSize = 14.000
+sgshooterpro.TextWrapped = true
+sgshooterpro.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sgslasherpro.Name = "sgslasher(pro)"
+sgslasherpro.Parent = stats
+sgslasherpro.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sgslasherpro.Position = UDim2.new(-0.00101321191, 0, 0.12672241, 0)
+sgslasherpro.Size = UDim2.new(0, 200, 0, 30)
+sgslasherpro.Font = Enum.Font.GothamBold
+sgslasherpro.Text = "SG Slasher(pro)"
+sgslasherpro.TextColor3 = Color3.fromRGB(255, 255, 255)
+sgslasherpro.TextScaled = true
+sgslasherpro.TextSize = 14.000
+sgslasherpro.TextWrapped = true
+sgslasherpro.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sgplaymakerpro.Name = "sgplaymaker(pro)"
+sgplaymakerpro.Parent = stats
+sgplaymakerpro.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sgplaymakerpro.Position = UDim2.new(-0.00101321191, 0, 0.327335894, 0)
+sgplaymakerpro.Size = UDim2.new(0, 200, 0, 30)
+sgplaymakerpro.Font = Enum.Font.GothamBold
+sgplaymakerpro.Text = "SG Playmaker(pro)"
+sgplaymakerpro.TextColor3 = Color3.fromRGB(255, 255, 255)
+sgplaymakerpro.TextScaled = true
+sgplaymakerpro.TextSize = 14.000
+sgplaymakerpro.TextWrapped = true
+sgplaymakerpro.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sfslasherrookie.Name = "sfslasher(rookie)"
+sfslasherrookie.Parent = stats
+sfslasherrookie.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sfslasherrookie.Position = UDim2.new(-0.00101321191, 0, 0.564759254, 0)
+sfslasherrookie.Size = UDim2.new(0, 200, 0, 30)
+sfslasherrookie.Font = Enum.Font.GothamBold
+sfslasherrookie.Text = "SF Slasher(rookie)"
+sfslasherrookie.TextColor3 = Color3.fromRGB(255, 255, 255)
+sfslasherrookie.TextScaled = true
+sfslasherrookie.TextSize = 14.000
+sfslasherrookie.TextWrapped = true
+sfslasherrookie.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sfshootersuper.Name = "sfshooter(super)"
+sfshootersuper.Parent = stats
+sfshootersuper.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sfshootersuper.Position = UDim2.new(-0.00444963761, 0, 0.181323647, 0)
+sfshootersuper.Size = UDim2.new(0, 200, 0, 30)
+sfshootersuper.Font = Enum.Font.GothamBold
+sfshootersuper.Text = "SF Shooter(super)"
+sfshootersuper.TextColor3 = Color3.fromRGB(255, 255, 255)
+sfshootersuper.TextScaled = true
+sfshootersuper.TextSize = 14.000
+sfshootersuper.TextWrapped = true
+sfshootersuper.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sfslashersuper.Name = "sfslasher(super)"
+sfslashersuper.Parent = stats
+sfslashersuper.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sfslashersuper.Position = UDim2.new(-0.00101321144, 0, 0.199728563, 0)
+sfslashersuper.Size = UDim2.new(0, 200, 0, 30)
+sfslashersuper.Font = Enum.Font.GothamBold
+sfslashersuper.Text = "SF Slasher(super)"
+sfslashersuper.TextColor3 = Color3.fromRGB(255, 255, 255)
+sfslashersuper.TextScaled = true
+sfslashersuper.TextSize = 14.000
+sfslashersuper.TextWrapped = true
+sfslashersuper.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sfplaymakersuper.Name = "sfplaymaker(super)"
+sfplaymakersuper.Parent = stats
+sfplaymakersuper.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sfplaymakersuper.Position = UDim2.new(-0.00101321144, 0, 0.218133464, 0)
+sfplaymakersuper.Size = UDim2.new(0, 200, 0, 30)
+sfplaymakersuper.Font = Enum.Font.GothamBold
+sfplaymakersuper.Text = "SF Playmaker(super)"
+sfplaymakersuper.TextColor3 = Color3.fromRGB(255, 255, 255)
+sfplaymakersuper.TextScaled = true
+sfplaymakersuper.TextSize = 14.000
+sfplaymakersuper.TextWrapped = true
+sfplaymakersuper.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sfshooterpro.Name = "sfshooter(pro)"
+sfshooterpro.Parent = stats
+sfshooterpro.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sfshooterpro.Position = UDim2.new(-0.00444963761, 0, 0.363532186, 0)
+sfshooterpro.Size = UDim2.new(0, 200, 0, 30)
+sfshooterpro.Font = Enum.Font.GothamBold
+sfshooterpro.Text = "SF Shooter(pro)"
+sfshooterpro.TextColor3 = Color3.fromRGB(255, 255, 255)
+sfshooterpro.TextScaled = true
+sfshooterpro.TextSize = 14.000
+sfshooterpro.TextWrapped = true
+sfshooterpro.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sfslasherpro.Name = "sfslasher(pro)"
+sfslasherpro.Parent = stats
+sfslasherpro.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sfslasherpro.Position = UDim2.new(-0.00101321191, 0, 0.381937087, 0)
+sfslasherpro.Size = UDim2.new(0, 200, 0, 30)
+sfslasherpro.Font = Enum.Font.GothamBold
+sfslasherpro.Text = "SF Slasher(pro)"
+sfslasherpro.TextColor3 = Color3.fromRGB(255, 255, 255)
+sfslasherpro.TextScaled = true
+sfslasherpro.TextSize = 14.000
+sfslasherpro.TextWrapped = true
+sfslasherpro.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sfplaymakerpro.Name = "sfplaymaker(pro)"
+sfplaymakerpro.Parent = stats
+sfplaymakerpro.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sfplaymakerpro.Position = UDim2.new(-0.00101321191, 0, 0.399728507, 0)
+sfplaymakerpro.Size = UDim2.new(0, 200, 0, 30)
+sfplaymakerpro.Font = Enum.Font.GothamBold
+sfplaymakerpro.Text = "SF Playmaker(pro)"
+sfplaymakerpro.TextColor3 = Color3.fromRGB(255, 255, 255)
+sfplaymakerpro.TextScaled = true
+sfplaymakerpro.TextSize = 14.000
+sfplaymakerpro.TextWrapped = true
+sfplaymakerpro.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+pgshooterrookie.Name = "pgshooter(rookie)"
+pgshooterrookie.Parent = stats
+pgshooterrookie.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pgshooterrookie.Position = UDim2.new(-0.00101321191, 0, 0.418133438, 0)
+pgshooterrookie.Size = UDim2.new(0, 200, 0, 30)
+pgshooterrookie.Font = Enum.Font.GothamBold
+pgshooterrookie.Text = "PG Shooter(rookie)"
+pgshooterrookie.TextColor3 = Color3.fromRGB(255, 255, 255)
+pgshooterrookie.TextScaled = true
+pgshooterrookie.TextSize = 14.000
+pgshooterrookie.TextWrapped = true
+pgshooterrookie.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+pgslasherrookie.Name = "pgslasher(rookie)"
+pgslasherrookie.Parent = stats
+pgslasherrookie.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pgslasherrookie.Position = UDim2.new(-0.00101320958, 0, 0.435924858, 0)
+pgslasherrookie.Size = UDim2.new(0, 200, 0, 30)
+pgslasherrookie.Font = Enum.Font.GothamBold
+pgslasherrookie.Text = "PG Slasher(rookie)"
+pgslasherrookie.TextColor3 = Color3.fromRGB(255, 255, 255)
+pgslasherrookie.TextScaled = true
+pgslasherrookie.TextSize = 14.000
+pgslasherrookie.TextWrapped = true
+pgslasherrookie.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+pgplaymakerrookie.Name = "pgplaymaker(rookie)"
+pgplaymakerrookie.Parent = stats
+pgplaymakerrookie.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pgplaymakerrookie.Position = UDim2.new(-0.00101321191, 0, 0.454329789, 0)
+pgplaymakerrookie.Size = UDim2.new(0, 200, 0, 30)
+pgplaymakerrookie.Font = Enum.Font.GothamBold
+pgplaymakerrookie.Text = "PG Playmaker(rookie)"
+pgplaymakerrookie.TextColor3 = Color3.fromRGB(255, 255, 255)
+pgplaymakerrookie.TextScaled = true
+pgplaymakerrookie.TextSize = 14.000
+pgplaymakerrookie.TextWrapped = true
+pgplaymakerrookie.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sgshooterrookie.Name = "sgshooter(rookie)"
+sgshooterrookie.Parent = stats
+sgshooterrookie.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sgshooterrookie.Position = UDim2.new(-0.00101320818, 0, 0.472121149, 0)
+sgshooterrookie.Size = UDim2.new(0, 200, 0, 30)
+sgshooterrookie.Font = Enum.Font.GothamBold
+sgshooterrookie.Text = "SG Shooter(rookie)"
+sgshooterrookie.TextColor3 = Color3.fromRGB(255, 255, 255)
+sgshooterrookie.TextScaled = true
+sgshooterrookie.TextSize = 14.000
+sgshooterrookie.TextWrapped = true
+sgshooterrookie.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sgslasherrookie.Name = "sgslasher(rookie)"
+sgslasherrookie.Parent = stats
+sgslasherrookie.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sgslasherrookie.Position = UDim2.new(-0.00101321191, 0, 0.49052611, 0)
+sgslasherrookie.Size = UDim2.new(0, 200, 0, 30)
+sgslasherrookie.Font = Enum.Font.GothamBold
+sgslasherrookie.Text = "SG Slasher(rookie)"
+sgslasherrookie.TextColor3 = Color3.fromRGB(255, 255, 255)
+sgslasherrookie.TextScaled = true
+sgslasherrookie.TextSize = 14.000
+sgslasherrookie.TextWrapped = true
+sgslasherrookie.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sgplaymakerrookie.Name = "sgplaymaker(rookie)"
+sgplaymakerrookie.Parent = stats
+sgplaymakerrookie.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sgplaymakerrookie.Position = UDim2.new(-0.00101320818, 0, 0.508930981, 0)
+sgplaymakerrookie.Size = UDim2.new(0, 200, 0, 30)
+sgplaymakerrookie.Font = Enum.Font.GothamBold
+sgplaymakerrookie.Text = "SG Playmaker(rookie)"
+sgplaymakerrookie.TextColor3 = Color3.fromRGB(255, 255, 255)
+sgplaymakerrookie.TextScaled = true
+sgplaymakerrookie.TextSize = 14.000
+sgplaymakerrookie.TextWrapped = true
+sgplaymakerrookie.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sfshooterrookie.Name = "sfshooter(rookie)"
+sfshooterrookie.Parent = stats
+sfshooterrookie.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sfshooterrookie.Position = UDim2.new(-0.00101321191, 0, 0.546354353, 0)
+sfshooterrookie.Size = UDim2.new(0, 200, 0, 30)
+sfshooterrookie.Font = Enum.Font.GothamBold
+sfshooterrookie.Text = "SF Shooter(rookie)"
+sfshooterrookie.TextColor3 = Color3.fromRGB(255, 255, 255)
+sfshooterrookie.TextScaled = true
+sfshooterrookie.TextSize = 14.000
+sfshooterrookie.TextWrapped = true
+sfshooterrookie.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sgcomboguardpro.Name = "sgcomboguard(pro)"
+sgcomboguardpro.Parent = stats
+sgcomboguardpro.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sgcomboguardpro.Position = UDim2.new(-0.00101321191, 0, 0.345740765, 0)
+sgcomboguardpro.Size = UDim2.new(0, 200, 0, 30)
+sgcomboguardpro.Font = Enum.Font.GothamBold
+sgcomboguardpro.Text = "SG Comboguard(pro)"
+sgcomboguardpro.TextColor3 = Color3.fromRGB(255, 255, 255)
+sgcomboguardpro.TextScaled = true
+sgcomboguardpro.TextSize = 14.000
+sgcomboguardpro.TextWrapped = true
+sgcomboguardpro.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sfplaymakerrookie.Name = "sfplaymaker(rookie)"
+sfplaymakerrookie.Parent = stats
+sfplaymakerrookie.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sfplaymakerrookie.Position = UDim2.new(-0.00101323426, 0, 0.583164096, 0)
+sfplaymakerrookie.Size = UDim2.new(0, 200, 0, 30)
+sfplaymakerrookie.Font = Enum.Font.GothamBold
+sfplaymakerrookie.Text = "SF Playmaker(rookie)"
+sfplaymakerrookie.TextColor3 = Color3.fromRGB(255, 255, 255)
+sfplaymakerrookie.TextScaled = true
+sfplaymakerrookie.TextSize = 14.000
+sfplaymakerrookie.TextWrapped = true
+sfplaymakerrookie.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+close.Name = "close"
+close.Parent = stats
+close.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+close.Position = UDim2.new(0.792805493, 0, -0.000557146966, 0)
+close.Size = UDim2.new(0, 53, 0, 38)
+close.Font = Enum.Font.GothamBold
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(255, 255, 255)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+close.MouseButton1Down:connect(function()
+	stats.Visible = false
+end)
+
+pfstretchsuper.Name = "pfstretch(super)"
+pfstretchsuper.Parent = stats
+pfstretchsuper.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pfstretchsuper.Position = UDim2.new(-0.00101320818, 0, 0.600955546, 0)
+pfstretchsuper.Size = UDim2.new(0, 200, 0, 30)
+pfstretchsuper.Font = Enum.Font.GothamBold
+pfstretchsuper.Text = "PF Stretch(super)"
+pfstretchsuper.TextColor3 = Color3.fromRGB(255, 255, 255)
+pfstretchsuper.TextScaled = true
+pfstretchsuper.TextSize = 14.000
+pfstretchsuper.TextWrapped = true
+pfstretchsuper.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+pfrimsuper.Name = "pfrim(super)"
+pfrimsuper.Parent = stats
+pfrimsuper.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pfrimsuper.Position = UDim2.new(-0.00101318955, 0, 0.637151837, 0)
+pfrimsuper.Size = UDim2.new(0, 200, 0, 30)
+pfrimsuper.Font = Enum.Font.GothamBold
+pfrimsuper.Text = "PF Rim(super)"
+pfrimsuper.TextColor3 = Color3.fromRGB(255, 255, 255)
+pfrimsuper.TextScaled = true
+pfrimsuper.TextSize = 14.000
+pfrimsuper.TextWrapped = true
+pfrimsuper.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+pfpostsuper.Name = "pfpost(super)"
+pfpostsuper.Parent = stats
+pfpostsuper.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pfpostsuper.Position = UDim2.new(-0.00444963574, 0, 0.619360387, 0)
+pfpostsuper.Size = UDim2.new(0, 200, 0, 30)
+pfpostsuper.Font = Enum.Font.GothamBold
+pfpostsuper.Text = "PF Post(super)"
+pfpostsuper.TextColor3 = Color3.fromRGB(255, 255, 255)
+pfpostsuper.TextScaled = true
+pfpostsuper.TextSize = 14.000
+pfpostsuper.TextWrapped = true
+pfpostsuper.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+cstretchsuper.Name = "cstretch(super)"
+cstretchsuper.Parent = stats
+cstretchsuper.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+cstretchsuper.Position = UDim2.new(-0.00101321191, 0, 0.654943347, 0)
+cstretchsuper.Size = UDim2.new(0, 200, 0, 30)
+cstretchsuper.Font = Enum.Font.GothamBold
+cstretchsuper.Text = "C Stretch(super)"
+cstretchsuper.TextColor3 = Color3.fromRGB(255, 255, 255)
+cstretchsuper.TextScaled = true
+cstretchsuper.TextSize = 14.000
+cstretchsuper.TextWrapped = true
+cstretchsuper.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+crimsuper.Name = "crim(super)"
+crimsuper.Parent = stats
+crimsuper.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+crimsuper.Position = UDim2.new(-0.00101318955, 0, 0.69175303, 0)
+crimsuper.Size = UDim2.new(0, 200, 0, 30)
+crimsuper.Font = Enum.Font.GothamBold
+crimsuper.Text = "C Rim(super)"
+crimsuper.TextColor3 = Color3.fromRGB(255, 255, 255)
+crimsuper.TextScaled = true
+crimsuper.TextSize = 14.000
+crimsuper.TextWrapped = true
+crimsuper.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+sgcomboguardrookie.Name = "sgcomboguard(rookie)"
+sgcomboguardrookie.Parent = stats
+sgcomboguardrookie.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+sgcomboguardrookie.Position = UDim2.new(-0.00101320818, 0, 0.527335882, 0)
+sgcomboguardrookie.Size = UDim2.new(0, 200, 0, 30)
+sgcomboguardrookie.Font = Enum.Font.GothamBold
+sgcomboguardrookie.Text = "SG Comboguard(rookie)"
+sgcomboguardrookie.TextColor3 = Color3.fromRGB(255, 255, 255)
+sgcomboguardrookie.TextScaled = true
+sgcomboguardrookie.TextSize = 14.000
+sgcomboguardrookie.TextWrapped = true
+sgcomboguardrookie.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+cpostsuper.Name = "cpost(super)"
+cpostsuper.Parent = stats
+cpostsuper.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+cpostsuper.Position = UDim2.new(-0.00444963807, 0, 0.673348248, 0)
+cpostsuper.Size = UDim2.new(0, 200, 0, 30)
+cpostsuper.Font = Enum.Font.GothamBold
+cpostsuper.Text = "C Post(super)"
+cpostsuper.TextColor3 = Color3.fromRGB(255, 255, 255)
+cpostsuper.TextScaled = true
+cpostsuper.TextSize = 14.000
+cpostsuper.TextWrapped = true
+cpostsuper.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+pfstretchpro.Name = "pfstretch(pro)"
+pfstretchpro.Parent = stats
+pfstretchpro.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pfstretchpro.Position = UDim2.new(-0.00444961572, 0, 0.710157931, 0)
+pfstretchpro.Size = UDim2.new(0, 200, 0, 30)
+pfstretchpro.Font = Enum.Font.GothamBold
+pfstretchpro.Text = "PF Stretch(pro)"
+pfstretchpro.TextColor3 = Color3.fromRGB(255, 255, 255)
+pfstretchpro.TextScaled = true
+pfstretchpro.TextSize = 14.000
+pfstretchpro.TextWrapped = true
+pfstretchpro.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+pfpostpro.Name = "pfpost(pro)"
+pfpostpro.Parent = stats
+pfpostpro.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pfpostpro.Position = UDim2.new(-0.00444961572, 0, 0.728562832, 0)
+pfpostpro.Size = UDim2.new(0, 200, 0, 30)
+pfpostpro.Font = Enum.Font.GothamBold
+pfpostpro.Text = "PF Post(pro)"
+pfpostpro.TextColor3 = Color3.fromRGB(255, 255, 255)
+pfpostpro.TextScaled = true
+pfpostpro.TextSize = 14.000
+pfpostpro.TextWrapped = true
+pfpostpro.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+pfrimpro.Name = "pfrim(pro)"
+pfrimpro.Parent = stats
+pfrimpro.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pfrimpro.Position = UDim2.new(-0.00444961572, 0, 0.746967733, 0)
+pfrimpro.Size = UDim2.new(0, 200, 0, 30)
+pfrimpro.Font = Enum.Font.GothamBold
+pfrimpro.Text = "PF Rim(pro)"
+pfrimpro.TextColor3 = Color3.fromRGB(255, 255, 255)
+pfrimpro.TextScaled = true
+pfrimpro.TextSize = 14.000
+pfrimpro.TextWrapped = true
+pfrimpro.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+cstretchrookie.Name = "cstretch(rookie)"
+cstretchrookie.Parent = stats
+cstretchrookie.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+cstretchrookie.Position = UDim2.new(-0.00444961572, 0, 0.765372634, 0)
+cstretchrookie.Size = UDim2.new(0, 200, 0, 30)
+cstretchrookie.Font = Enum.Font.GothamBold
+cstretchrookie.Text = "C Stretch(rookie)"
+cstretchrookie.TextColor3 = Color3.fromRGB(255, 255, 255)
+cstretchrookie.TextScaled = true
+cstretchrookie.TextSize = 14.000
+cstretchrookie.TextWrapped = true
+cstretchrookie.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+cpostrookie.Name = "cpost(rookie)"
+cpostrookie.Parent = stats
+cpostrookie.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+cpostrookie.Position = UDim2.new(-0.00101318955, 0, 0.783777535, 0)
+cpostrookie.Size = UDim2.new(0, 200, 0, 30)
+cpostrookie.Font = Enum.Font.GothamBold
+cpostrookie.Text = "C Post(rookie)"
+cpostrookie.TextColor3 = Color3.fromRGB(255, 255, 255)
+cpostrookie.TextScaled = true
+cpostrookie.TextSize = 14.000
+cpostrookie.TextWrapped = true
+cpostrookie.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+crimrookie.Name = "crim(rookie)"
+crimrookie.Parent = stats
+crimrookie.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+crimrookie.Position = UDim2.new(-0.00444961572, 0, 0.802182436, 0)
+crimrookie.Size = UDim2.new(0, 200, 0, 30)
+crimrookie.Font = Enum.Font.GothamBold
+crimrookie.Text = "C Rim(rookie)"
+crimrookie.TextColor3 = Color3.fromRGB(255, 255, 255)
+crimrookie.TextScaled = true
+crimrookie.TextSize = 14.000
+crimrookie.TextWrapped = true
+crimrookie.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+pfstretchrookie.Name = "pfstretch(rookie)"
+pfstretchrookie.Parent = stats
+pfstretchrookie.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pfstretchrookie.Position = UDim2.new(-0.00444961572, 0, 0.820587337, 0)
+pfstretchrookie.Size = UDim2.new(0, 200, 0, 30)
+pfstretchrookie.Font = Enum.Font.GothamBold
+pfstretchrookie.Text = "PF Stretch(rookie)"
+pfstretchrookie.TextColor3 = Color3.fromRGB(255, 255, 255)
+pfstretchrookie.TextScaled = true
+pfstretchrookie.TextSize = 14.000
+pfstretchrookie.TextWrapped = true
+pfstretchrookie.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+pfpostrookie.Name = "pfpost(rookie)"
+pfpostrookie.Parent = stats
+pfpostrookie.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pfpostrookie.Position = UDim2.new(-0.00444961572, 0, 0.838992238, 0)
+pfpostrookie.Size = UDim2.new(0, 200, 0, 30)
+pfpostrookie.Font = Enum.Font.GothamBold
+pfpostrookie.Text = "PF Post(rookie)"
+pfpostrookie.TextColor3 = Color3.fromRGB(255, 255, 255)
+pfpostrookie.TextScaled = true
+pfpostrookie.TextSize = 14.000
+pfpostrookie.TextWrapped = true
+pfpostrookie.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
+
+pfrimrookie.Name = "pfrim(rookie)"
+pfrimrookie.Parent = stats
+pfrimrookie.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+pfrimrookie.Position = UDim2.new(-0.00101318955, 0, 0.857397139, 0)
+pfrimrookie.Size = UDim2.new(0, 200, 0, 30)
+pfrimrookie.Font = Enum.Font.GothamBold
+pfrimrookie.Text = "PF Rim(rookie)"
+pfrimrookie.TextColor3 = Color3.fromRGB(255, 255, 255)
+pfrimrookie.TextScaled = true
+pfrimrookie.TextSize = 14.000
+pfrimrookie.TextWrapped = true
+pfrimrookie.MouseButton1Down:connect(function()
+Gamer:Toggle("Insane Legit Stat",function(value)
+for i,v in pairs(getgc(true)) do
+    if type(v) == "table" and rawget(v, "handles") then
+        v.freethrow = math,huge;
+        v.steal = math.huge;
+        v.shotcontest = math.huge;
+        v["2pointer"] = 99;
+        v["3pointer"] = 99;
+        v.passing = math.huge;
+        v.layup = math.huge;
+        v.strength = math.huge;
+        v.dunk = 99;
+        v.movingshot = 99;
+        v.defense = math.huge;
+        v.stamina = math.huge;
+    end
+end
+end)
+end)
